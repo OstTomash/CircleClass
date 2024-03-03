@@ -32,7 +32,7 @@ class Circle:
 
     def __str__(self):
         """Returns a string representation of instance"""
-        return f"Circle with radius {self}"
+        return f"Circle with radius {self.radius}"
 
 
 circle = Circle(10)
